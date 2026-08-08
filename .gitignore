@@ -1,0 +1,20 @@
+# Python虚拟环境
+.venv/
+
+# Python缓存
+__pycache__/
+*.pyc
+
+# Jupyter缓存
+.ipynb_checkpoints/
+
+# 密码和本地配置
+.env
+
+# 本地数据库
+*.db
+*.duckdb
+
+# 原始及生成数据暂不上传
+data/raw/*.csv
+data/processed/*.csv
